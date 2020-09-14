@@ -1,0 +1,13 @@
+E:\Net Centric class\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.exe
+E:\Net Centric class\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.deps.json
+E:\Net Centric class\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.runtimeconfig.json
+E:\Net Centric class\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.runtimeconfig.dev.json
+E:\Net Centric class\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.dll
+E:\Net Centric class\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.pdb
+E:\Net Centric class\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.csprojAssemblyReference.cache
+E:\Net Centric class\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.AssemblyInfoInputs.cache
+E:\Net Centric class\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.AssemblyInfo.cs
+E:\Net Centric class\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.csproj.CoreCompileInputs.cache
+E:\Net Centric class\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.dll
+E:\Net Centric class\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.pdb
+E:\Net Centric class\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.genruntimeconfig.cache

@@ -1,2 +1,0 @@
-# ajit_pandey
-Dotnet 

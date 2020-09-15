@@ -14,9 +14,7 @@ public void number_of_points()
     Console.Write("Enter number of losses: ");
     int loss = Convert.ToInt32(Console.ReadLine());
     
-    win=win*5;
-    draw=draw*2;
-    int points=win+draw;
+    int points=win*5+draw*2;
     Console.WriteLine("Total Points: " + points);
 }
 }

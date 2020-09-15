@@ -11,3 +11,16 @@ E:\ajit_pandey\Assignment\obj\Debug\netcoreapp3.1\Assignment.csproj.CoreCompileI
 E:\ajit_pandey\Assignment\obj\Debug\netcoreapp3.1\Assignment.dll
 E:\ajit_pandey\Assignment\obj\Debug\netcoreapp3.1\Assignment.pdb
 E:\ajit_pandey\Assignment\obj\Debug\netcoreapp3.1\Assignment.genruntimeconfig.cache
+E:\ajit_pandey\Assignment1\bin\Debug\netcoreapp3.1\Assignment.exe
+E:\ajit_pandey\Assignment1\bin\Debug\netcoreapp3.1\Assignment.deps.json
+E:\ajit_pandey\Assignment1\bin\Debug\netcoreapp3.1\Assignment.runtimeconfig.json
+E:\ajit_pandey\Assignment1\bin\Debug\netcoreapp3.1\Assignment.runtimeconfig.dev.json
+E:\ajit_pandey\Assignment1\bin\Debug\netcoreapp3.1\Assignment.dll
+E:\ajit_pandey\Assignment1\bin\Debug\netcoreapp3.1\Assignment.pdb
+E:\ajit_pandey\Assignment1\obj\Debug\netcoreapp3.1\Assignment.csprojAssemblyReference.cache
+E:\ajit_pandey\Assignment1\obj\Debug\netcoreapp3.1\Assignment.AssemblyInfoInputs.cache
+E:\ajit_pandey\Assignment1\obj\Debug\netcoreapp3.1\Assignment.AssemblyInfo.cs
+E:\ajit_pandey\Assignment1\obj\Debug\netcoreapp3.1\Assignment.csproj.CoreCompileInputs.cache
+E:\ajit_pandey\Assignment1\obj\Debug\netcoreapp3.1\Assignment.dll
+E:\ajit_pandey\Assignment1\obj\Debug\netcoreapp3.1\Assignment.pdb
+E:\ajit_pandey\Assignment1\obj\Debug\netcoreapp3.1\Assignment.genruntimeconfig.cache

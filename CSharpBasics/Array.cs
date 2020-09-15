@@ -7,7 +7,7 @@ class Array
       ages1[0] = 23;
       ages1[0] = 23;
       ages1[0] = 23;
-      ages1[0] = 23;
+      ages1[0] = 24;
 
       int[] ages2 = new int[] {45,23,87};
 

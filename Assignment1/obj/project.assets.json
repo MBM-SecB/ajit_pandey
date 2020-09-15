@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ajit_pandey\\Assignment\\Assignment.csproj",
+      "projectUniqueName": "E:\\ajit_pandey\\Assignment1\\Assignment.csproj",
       "projectName": "Assignment",
-      "projectPath": "E:\\ajit_pandey\\Assignment\\Assignment.csproj",
+      "projectPath": "E:\\ajit_pandey\\Assignment1\\Assignment.csproj",
       "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "E:\\ajit_pandey\\Assignment\\obj\\",
+      "outputPath": "E:\\ajit_pandey\\Assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config"

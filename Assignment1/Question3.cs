@@ -13,17 +13,16 @@
             Console.Write("Enter two words separated by space: ");
             string s = Console.ReadLine();
             string[] output = s.Split(' ');
+             if(output.Length!=2)
+                {
+                Console.WriteLine("Your Highness, please enter only two words.");
+                }
             
             foreach (string a in output)
             {
-                if(output.Length!=2)
-                {
-                Console.WriteLine("Can\'t you read English? Enter only two words.");
-                }
-                else{
+            
                     Console.Write(a[0]);
                 }
             }
 
         }
-    }

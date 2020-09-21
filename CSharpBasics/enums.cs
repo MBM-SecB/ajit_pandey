@@ -1,4 +1,4 @@
-using SelectAndLoop;
+
 
 enum Complexity
 {
@@ -11,7 +11,7 @@ internal class EnumDemo
 {
     void UserEnums()
     {
-        SelectionStatement select;
+        // SelectionStatement select;
 
         Complexity complexity = Complexity.Easy;
         

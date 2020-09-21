@@ -1,3 +1,4 @@
+using System;
 public class MethodTeacher
 {
         public int Multiply(int  firstNum, int secondNum)
@@ -26,7 +27,7 @@ public class MethodTeacher
         // Named arguments
         void PrintCustomerDetails(string name, byte age,string adress, DateTime dob)
         {
-            Console.Write("")
+            Console.Write("");
         }
 
     

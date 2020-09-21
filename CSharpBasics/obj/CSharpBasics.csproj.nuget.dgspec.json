@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Net Centric class\\CSharpBasics\\CSharpBasics.csproj": {}
+    "E:\\ajit_pandey\\CSharpBasics\\CSharpBasics.csproj": {}
   },
   "projects": {
-    "E:\\Net Centric class\\CSharpBasics\\CSharpBasics.csproj": {
+    "E:\\ajit_pandey\\CSharpBasics\\CSharpBasics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Centric class\\CSharpBasics\\CSharpBasics.csproj",
+        "projectUniqueName": "E:\\ajit_pandey\\CSharpBasics\\CSharpBasics.csproj",
         "projectName": "CSharpBasics",
-        "projectPath": "E:\\Net Centric class\\CSharpBasics\\CSharpBasics.csproj",
+        "projectPath": "E:\\ajit_pandey\\CSharpBasics\\CSharpBasics.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Centric class\\CSharpBasics\\obj\\",
+        "outputPath": "E:\\ajit_pandey\\CSharpBasics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config"

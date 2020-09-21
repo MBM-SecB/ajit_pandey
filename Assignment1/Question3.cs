@@ -15,7 +15,7 @@
             string[] output = s.Split(' ');
              if(output.Length!=2)
                 {
-                Console.WriteLine("Your Highness, please enter only two words.");
+                Console.WriteLine("Please enter only two words.");
                 }
             
             foreach (string a in output)

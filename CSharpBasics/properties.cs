@@ -1,6 +1,6 @@
 class Person
 {
-    private int age = 23;
+    public int age = 23;
     internal string name = "Azyt";
 
 

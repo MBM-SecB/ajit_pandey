@@ -1,6 +1,5 @@
 using System;
 
-namespace SelectAndLoop
 
 class IterationStatement
 {
@@ -9,7 +8,7 @@ class IterationStatement
         IterationStatement iterationStatement = new IterationStatement();
         iterationStatement.LearnWhileLoops();
 
-        AccessModifier accessModifier  = new AccessModifier;
+        AccessModifier accessModifier  = new AccessModifier();
         accessModifier.DoSomething();
 
         Person person = new Person();

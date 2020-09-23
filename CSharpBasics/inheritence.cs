@@ -2,13 +2,13 @@ using System;
 public abstract class Shape
 {
     public abstract double GetArea();
-    
+
     public abstract double GetCircumference();
     public virtual void PrintResults()
-        {
+    {
         Console.WriteLine("Printing result for same shape ...");
-        }
-  
+    }
+
 }
 interface ComputeDiagnol
 {
@@ -18,18 +18,18 @@ interface ComputeDiagnol
 public class Square : Rectangle
 {
 
-    public Square(double side): base(side, side)
+    public Square(double side) : base(side, side)
     {
-       
+
     }
 
-    
+
 }
 
 public class Rectangle : Shape
 {
-    public double Length {get; set;}
-    public double Breadth {get; set;}
+    public double Length { get; set; }
+    public double Breadth { get; set; }
 
     public Rectangle(double length, double breadth)
     {
@@ -39,7 +39,7 @@ public class Rectangle : Shape
 
     public override double GetArea() => Length * Breadth;
 
-    public override double GetCircumference() => 2 * (Length+Breadth);
+    public override double GetCircumference() => 2 * (Length + Breadth);
 
     public override void PrintResults()
     {
@@ -53,28 +53,25 @@ public class Rectangle : Shape
 public class Circle : Shape
 {
 
-    public double Radius {get;set;}
+    public double Radius { get; set; }
     public override double GetArea() => Math.PI * Radius * Radius;
 
     public override double GetCircumference() => 2 * Math.PI * Radius;
 
-    
+
 }
 class A
-{
+{ }
+class B : A
+{ }
 
-}
-class B : A { }
+class C : B
+{ }
 
-class C : B { }
-
-class D : A, IA, IB { }
+class D : A, IA, IB
+{ }
 
 interface IA
-{
-
-}
+{ }
 interface IB
-{
-
-}
+{ }

@@ -10,13 +10,17 @@ public abstract class Shape
         }
   
 }
+interface ComputeDiagnol
+{
+    public double GetDiagonal();
+}
 
 public class Square : Rectangle
 {
 
-    public Square(double side)
+    public Square(double side): base(side, side)
     {
-        base.Breadth = base.Breadth =  side;
+       
     }
 
     
@@ -55,4 +59,22 @@ public class Circle : Shape
     public override double GetCircumference() => 2 * Math.PI * Radius;
 
     
+}
+class A
+{
+
+}
+class B : A { }
+
+class C : B { }
+
+class D : A, IA, IB { }
+
+interface IA
+{
+
+}
+interface IB
+{
+
 }

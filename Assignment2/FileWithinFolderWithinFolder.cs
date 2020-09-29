@@ -12,7 +12,7 @@ using System.IO;
         public void CreateDirectories()
         {
             
-        string rootFolderPath = "Nepal";
+        string rootFolderPath = "Nepal ";
         Directory.CreateDirectory(rootFolderPath);
         string[] subfolders = {"Mechi","Koshi","Sagarmatha","Janakpur","Bagmati","Narayani","Gandaki","Lumbini","Dhaulagiri","Rapti"};
         foreach(string sub in subfolders)

@@ -17,7 +17,7 @@ using System.IO;
         string[] subfolders = {"Mechi","Koshi","Sagarmatha","Janakpur","Bagmati","Narayani","Gandaki","Lumbini","Dhaulagiri","Rapti"};
         foreach(string sub in subfolders)
         {
-            string subfolderPath = folderPath + "/" + sub;
+            string subfolderPath = rootFolderPath + "/" + sub;
             Directory.CreateDirectory(subfolderPath);
             string filePath = subfolderPath + "/" + "test.txt";
             File.WriteAllText(filePath,sub);

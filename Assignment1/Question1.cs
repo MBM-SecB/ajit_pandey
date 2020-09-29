@@ -11,7 +11,7 @@ public class Ques1
     {
         Console.Write("Enter first number: ");
         int firstNum = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Enter second number: ");
+        Console.Write("Enter second number:  ");
         int secondNum = Convert.ToInt32(Console.ReadLine());
 
 

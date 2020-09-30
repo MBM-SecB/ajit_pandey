@@ -1,0 +1,13 @@
+E:\ajit_pandey\ParallelAndAsync\bin\Debug\netcoreapp3.1\ParallelAndAsync.exe
+E:\ajit_pandey\ParallelAndAsync\bin\Debug\netcoreapp3.1\ParallelAndAsync.deps.json
+E:\ajit_pandey\ParallelAndAsync\bin\Debug\netcoreapp3.1\ParallelAndAsync.runtimeconfig.json
+E:\ajit_pandey\ParallelAndAsync\bin\Debug\netcoreapp3.1\ParallelAndAsync.runtimeconfig.dev.json
+E:\ajit_pandey\ParallelAndAsync\bin\Debug\netcoreapp3.1\ParallelAndAsync.dll
+E:\ajit_pandey\ParallelAndAsync\bin\Debug\netcoreapp3.1\ParallelAndAsync.pdb
+E:\ajit_pandey\ParallelAndAsync\obj\Debug\netcoreapp3.1\ParallelAndAsync.csprojAssemblyReference.cache
+E:\ajit_pandey\ParallelAndAsync\obj\Debug\netcoreapp3.1\ParallelAndAsync.AssemblyInfoInputs.cache
+E:\ajit_pandey\ParallelAndAsync\obj\Debug\netcoreapp3.1\ParallelAndAsync.AssemblyInfo.cs
+E:\ajit_pandey\ParallelAndAsync\obj\Debug\netcoreapp3.1\ParallelAndAsync.csproj.CoreCompileInputs.cache
+E:\ajit_pandey\ParallelAndAsync\obj\Debug\netcoreapp3.1\ParallelAndAsync.dll
+E:\ajit_pandey\ParallelAndAsync\obj\Debug\netcoreapp3.1\ParallelAndAsync.pdb
+E:\ajit_pandey\ParallelAndAsync\obj\Debug\netcoreapp3.1\ParallelAndAsync.genruntimeconfig.cache

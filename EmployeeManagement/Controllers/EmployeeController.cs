@@ -6,12 +6,12 @@ public class EmployeeController: Controller
     public ActionResult<string> Index()
     {
         List<Employee> employees = new List<Employee>();
-        var employee1 = new Employee
+        var employee1 = new Employee()
         {
-            FirstName:"Mark",
-            LastName:"Rober",
-            Address:"Ktm",
-            Salary:50000
+            FirstName= "Mark",
+            LastName= "Rober",
+            Address = "Ktm",
+            Salary= 50000
 
         };
 

@@ -14422,6 +14422,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\ajit_pandey\\EmployeeManagement\\Views\\Employee\\detail.cshtml",
+      "TargetPath": "Views\\Employee\\detail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\ajit_pandey\\EmployeeManagement\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

@@ -37,3 +37,4 @@ E:\ajit_pandey\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.gen
 E:\ajit_pandey\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CopyComplete
 E:\ajit_pandey\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
 E:\ajit_pandey\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Employee\detail.cshtml.g.cs
+E:\ajit_pandey\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Add.cshtml.g.cs

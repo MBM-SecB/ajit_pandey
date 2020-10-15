@@ -14435,6 +14435,11 @@
       "FilePath": "e:\\ajit_pandey\\EmployeeManagement\\Views\\Employee\\Index.cshtml",
       "TargetPath": "Views\\Employee\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\ajit_pandey\\EmployeeManagement\\Views\\Employee\\Add.cshtml",
+      "TargetPath": "Views\\Employee\\Add.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

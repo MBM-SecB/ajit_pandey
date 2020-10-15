@@ -22,5 +22,16 @@ public class EmployeeController: Controller
         var employee = employees.Where(x => x.FirstName == firstName).First();
         return View(employee);
     }
+
+    public ActionResult Add()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public ActionResult<bool> Add(Employee employee)
+    {
+        return true;
+    }
 }
 

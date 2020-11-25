@@ -3,15 +3,16 @@ using System.ComponentModel.DataAnnotations;
 
 public class Employee
 {
+    [Required(ErrorMessage= "Firstname required")]
     [Display(Name = "First Name")]
-    [Required]
+    
     public string FirstName {get; set;}
 
-    [Required]
+    [Required(ErrorMessage= "Lastname required")]
     [Display(Name = "Last Name")]
     public string LastName {get; set;}
 
-    public string Address {get; set;}
+public string Address {get; set;}
 
     public char Gender {get; set;} = 'M';
 

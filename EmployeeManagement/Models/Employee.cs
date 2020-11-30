@@ -3,6 +3,9 @@ using System.ComponentModel.DataAnnotations;
 
 public class Employee
 {
+
+    public int Id {get; set;}
+
     [Required(ErrorMessage = "Firstname required")]
     [Display(Name = "First Name")]
 

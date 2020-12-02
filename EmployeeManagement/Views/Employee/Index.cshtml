@@ -3,7 +3,7 @@
 @{
   ViewData["Title"] = "Employee Home";
 }
-  
+
 
 <h1>Displaying all employees .. </h1>
 
@@ -19,21 +19,25 @@
     </tr>
   </thead>
   <tbody>
-    
-    @for(int i=0;i<Model.Count;i++)
+
+    @for (int i = 0; i < Model.Count; i++)
     {
-    
-        <tr>
-          <td>@(i+1)</td>
+
+      <tr>
+        <td>@(i+1)</td>
+        <td>
+          <a href="/employee/detail?id=@Model[i].Id">@Model[i].FirstName</a>
+        </td>
+        <td>@Model[i].LastName</td>
+        <td>@Model[i].Address</td>
+        <td>@Model[i].Gender</td>
+        <td>@Model[i].Salary</td>
+        <form asp-asp-controller="Employee" asp-action="Delete" asp-route-id="@Model[i].Id" method="POST">
           <td>
-            <a href="/employee/detail?firstName=@Model[i].FirstName">@Model[i].FirstName</a>
-            </td>
-          <td>@Model[i].LastName</td>
-          <td>@Model[i].Address</td>
-          <td>@Model[i].Gender</td>
-          <td>@Model[i].Salary</td>
-        </tr>
-        
+            <input type="submit" value="Delete">
+          </td>
+        </form>
+      </tr>
     }
   </tbody>
 </table>

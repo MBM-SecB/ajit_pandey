@@ -33,6 +33,12 @@ public class EmployeeController: Controller
         return View();
     }
 
+    public ActionResult Edit(int id)
+    {
+        var employee = db.Employees.Find(id);
+        return View(employee);
+    }
+
     [HttpPost]
     public ActionResult Add(Employee employee)
     {
@@ -46,6 +52,16 @@ public class EmployeeController: Controller
     {
         var employee = db.Employees.Find(id);
         db.Employees.Remove(employee);
+        db.SaveChanges();
+
+        return RedirectToAction(nameof(Index));
+    }
+    [HttpPost]
+    public ActionResult Edit(Employee employee)
+    {
+         db.Employees.Attach(employee);
+        
+        db.Employees.Update(employee);
         db.SaveChanges();
 
         return RedirectToAction(nameof(Index));

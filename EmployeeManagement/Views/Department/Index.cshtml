@@ -37,13 +37,10 @@
         <td>@Model[i].Description</td>
         
 
-        <td><a class="btn btn-outline-primary" href="/department/Edit?id=@Model[i].Id">Edit</a></td>
+        <td><a class="btn btn-outline-primary" href="/department/Edit?id=@Model[i].Id">Edit</a>
+        <a class="btn btn-danger" href="/Department/Delete?id=@Model[i].Id">Delete</a>
+        </td>
 
-        <form asp-asp-controller="Employee" asp-action="Delete" asp-route-id="@Model[i].Id" method="POST">
-          <td>
-            <input class="btn btn-outline-danger" type="submit" value="Delete">
-          </td>
-        </form>
       </tr>
     }
   </tbody>

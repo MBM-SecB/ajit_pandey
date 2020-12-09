@@ -59,10 +59,17 @@ public class DepartmentController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    [HttpPost]
     public ActionResult Delete(int id)
     {
         var department = db.Departments.Find(id);
+        return View(department);
+    }
+
+    [HttpPost]
+    public ActionResult Delete(Department department)
+    {
+        
+        db.Departments.Attach(department);
         db.Departments.Remove(department);
         db.SaveChanges();
 

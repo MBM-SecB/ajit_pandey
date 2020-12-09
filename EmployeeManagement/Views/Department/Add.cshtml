@@ -8,6 +8,7 @@
 
 @* tag helpers*@
 
+
 <form asp-asp-controller="Department" asp-action="Add" method="POST">
   <div class="form-group">
     <label asp-for="DepartmentId"></label>
@@ -33,9 +34,19 @@
     <span asp-validation-for="Description" class="text-danger"></span>
   </div>
 
+               @* <div class="form-group">
+                  <label asp-for="CreatedDate"></label>
+                  <div class='input-group date' id='datetimepicker1'>
+                     <input type='text' class="form-control" />
+                     <span class="input-group-addon">
+                     <span class="glyphicon glyphicon-calendar"></span>
+                     </span>
+                  </div>
+               </div> *@
+        
    <div class="form-group">
     <label asp-for="CreatedDate"></label>
-    <input type="text" class="form-control" asp-for="CreatedDate" placeholder="Created Date">
+    <input type="date" class="form-control" asp-for="CreatedDate" placeholder="Created Date">
     <span asp-validation-for="CreatedDate" class="text-danger"></span>
   </div>
 
@@ -43,3 +54,4 @@
 
   <button type="submit" class="btn btn-primary">Add Department</button>
 </form>
+

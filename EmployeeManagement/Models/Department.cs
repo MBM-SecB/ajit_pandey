@@ -14,7 +14,7 @@ public class Department
     [Required(ErrorMessage = "Department Code required")]
     [MinLength(5)]
     [Display(Name = "Department Code")]
-    public string DepartmentId { get; set; }
+    public string DepartmentCode { get; set; }
 
     public string Location { get; set; }
 
@@ -22,7 +22,7 @@ public class Department
 
     public DateTime CreatedDate { get; set; }
 
-    public List<Employee> Employees {get; set}
+    public List<Employee> Employees {get; set;}
 
     
 }

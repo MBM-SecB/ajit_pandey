@@ -27,5 +27,9 @@ public class Employee
     [Display(Name = "Salary")]
     public double Salary { get; set; }
 
+    public Department Department {get; set;}
+
+    public int DepartmentId {get; set;}
+
     
 }

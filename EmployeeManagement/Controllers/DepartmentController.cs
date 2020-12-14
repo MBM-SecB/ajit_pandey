@@ -34,13 +34,13 @@ public class DepartmentController : Controller
     }
 
     [HttpPost]
-    public ActionResult Add(Department department)  // Model binding
-    {
-        db.Departments.Add(department);
-        db.SaveChanges();
+        public ActionResult Add([FromForm] Department department)
+        {
+            db.Departments.Add(department);
+            db.SaveChanges();
 
-        return RedirectToAction(nameof(Index));
-    }
+            return RedirectToAction(nameof(Index));
+        }
 
     public ActionResult Edit(int id)
     {

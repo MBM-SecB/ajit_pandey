@@ -1,54 +1,68 @@
-
-using System.Linq;
+using System;
 using Microsoft.AspNetCore.Mvc;
-using StudentsApi.Models;
+using System.Linq;
+using StudentsApi.Data;
+using System.Collections.Generic;
 
-[Route("api/students")]
+
+
+[Route("student")]
 [ApiController]
-public class StudentsController : ControllerBase
+
+public class StudentController : ControllerBase
 {
+    private readonly StudentsContext db;
+        public StudentController(StudentsContext _db){
+
+            db = _db;
+        }
+
     [HttpGet]
     [Route("all")]
-    public ActionResult GetAllStudents()
+    public IEnumerable<Student> GetAllStudent()
     {
-        var students = new string[] { "Ram", "Shyam", "Geeta", };
-        // students = null;
-        if (students == null)
-        {
-            return NotFound();
-        }
-        return Ok(students);
+        var students = db.Student.ToList();
+        return students;
     }
 
-    [HttpGet]
-    [Route("{name}")]
-    public ActionResult GetStudentById(string name)
-    {
+    // [HttpGet]
+    // [Route("{id}")]
+    // public ActionResult GetStudent(int id) {
+    //     var student = db.Student.Find(id);
+    //     return Ok(student);
+    // }
 
-        var students = new string[] { "Ram", "Shyam", "Geeta", };
-
-        var student = students.Where(x => x == name).FirstOrDefault();
-
-
-        // students = null;
-        if (student == null)
-        {
-
-            return NotFound();
+    [HttpPost]
+    [Route("create")]
+    public ActionResult CreateStudent(Student student) {
+        if (student == null) {
+            return BadRequest();
         }
+        db.Student.Add(student);
+        db.SaveChanges();
+        // Add student to db
+        return Created("", student);
+    }
 
+    [HttpPut]
+    [Route("update/{id}")]
+    public ActionResult UpdateStudent(Student student, int id) {
+        // update student from db
+        db.Student.Attach(student);
+        db.Student.Update(student);
+        db.SaveChanges();
         return Ok(student);
     }
 
-    [HttpPost]
-    [Route("add")]
-    public ActionResult CreateStudent(Student std)
-    {
-
-        if (std == null)
-            return BadRequest();
-        
-        return Created("", std);
+    [HttpDelete]
+    [Route("delete/{id}")]
+    public ActionResult DeleteStudent(int id) {
+        // delete student to db
+        var student = db.Student.Find(id);
+        db.Student.Attach(student);
+        db.Student.Remove(student);
+        db.SaveChanges();
+        return NoContent();
     }
 
 }
